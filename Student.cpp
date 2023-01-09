@@ -13,6 +13,6 @@ char Student::getStudent(){
 }
 
 void Student::setStudent(char letter){
-  //NOT COMPLETE... Does nothing
-  name = 'a';
+  //NOT COMPLETE... expression used for test
+  name = letter;
 }
