@@ -1,3 +1,7 @@
+//This program can create Nodes that correspond to Students.
+//Author: Paige Wiley
+//Date: 1-9-2013
+
 #include <iostream>
 #include "Node.h"
 
