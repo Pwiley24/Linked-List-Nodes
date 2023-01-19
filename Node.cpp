@@ -14,7 +14,7 @@ Node::~Node(){
 
 //Sets the value of the node to a student
 void Node::setStudent(Student* newVal){
-  value = newVal;
+  student = newVal;
 }
 
 //Returns the value of a student found in a node
