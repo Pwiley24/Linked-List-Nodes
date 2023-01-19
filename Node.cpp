@@ -3,27 +3,23 @@
 
 using namespace std;
 
-Node::Node(){
-  value = NULL;
-  next = NULL;
-}
 Node::Node(Student * student){
-  value = student;
+  student = student;
   next = NULL;
 }
 Node::~Node(){
-  delete &value;
+  delete &student;
   next = NULL;
 }
 
 //Sets the value of the node to a student
-void Node::setValue(Student* newVal){
+void Node::setStudent(Student* newVal){
   value = newVal;
 }
 
 //Returns the value of a student found in a node
-Student* Node::getValue(){
-  return value;
+Student* Node::getStudent(){
+  return student;
 }
 
 //Sets the next node
