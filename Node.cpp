@@ -7,6 +7,9 @@ Node::Node(){
   value = NULL;
   next = NULL;
 }
+Node::Node(Student * student){
+  value = student;
+}
 Node::~Node(){
   delete &value;
   next = NULL;

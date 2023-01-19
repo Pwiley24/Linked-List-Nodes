@@ -8,6 +8,7 @@ using namespace std;
 class Node{
  public:
   Node();
+  Node(Student* student);
   ~Node();
   void setValue(Student* newVal); //Sets the value of a node to a student
   Student* getValue(); //Returns the value of a student found in a node
